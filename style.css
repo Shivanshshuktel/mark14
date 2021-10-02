@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap');
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    background-image: url("/bg.jpg");
+    background-size:cover;
+}
+
+#container{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(lightgreen, rgb(255, 166, 166));
+  opacity: 0.9;
+  margin:150px auto;
+}
+input{
+    display : block;
+    margin : 1rem auto;
+    border: 1px solid purple;
+    border-radius: 0.5rem;
+    width: 200px;
+    height: 2rem;
+}
+
+label{
+    display : block;
+    margin : 1rem auto;
+}
+
+button{
+    color: white;
+    background-color: purple;
+    border: 1px solid purple;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+#output-text{
+    font-weight: bolder;;
+}
